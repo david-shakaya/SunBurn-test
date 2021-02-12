@@ -4,4 +4,6 @@
 
 @import 'normalize.scss';
 @import 'base.scss';
+@import './utils/var';
 @import './components/container';
+@import './layout/header';
