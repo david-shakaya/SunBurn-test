@@ -1,9 +1,28 @@
 <!-- Header -->
+<header>
   <div class="header">
-    <div class="container"></div>
-    <div class="header-cart-user">
-      <img class="header-photo-user" src="#" alt="photo" />
-      <h1 class="header-name-user">Lorem ipsum Lorem</h1>
+    <div class="container">
+      <div class="header-cart-user">
+        <!-- <img class="header-photo-user" src="#" alt="photo" /> -->
+        <picture>
+          <source
+            srcset="../images/user-mob.png"
+            media="(max-width: 903px)"
+            type="image/png"
+          />
+          <source
+            srcset="../images/user-desc.png"
+            media="(min-width: 904px)"
+            type="image/png"
+          />
+          <img
+            class="header-photo-user"
+            src="../images/user-mob.png"
+            alt="user-mob"
+          />
+        </picture>
+        <h1 class="header-name-user">Lorem ipsum Lorem</h1>
+      </div>
     </div>
   </div>
 </header>
