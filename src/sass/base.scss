@@ -11,9 +11,14 @@ html {
 ul,
 h1,
 h2,
-h3 {
+h3,
+p {
   padding: 0px;
   margin: 0px;
+}
+
+br {
+  display: none;
 }
 
 li {

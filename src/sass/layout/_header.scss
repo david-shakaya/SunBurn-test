@@ -1,3 +1,26 @@
 .header-name-user {
   font-family: $main-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  height: 54px;
+}
+.header-cart-user {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 134px;
+}
+
+.header-container {
+  background-color: $back-color;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.header-pict-user {
+  height: 60px;
+  width: 60px;
+  margin-right: 12px;
+  box-shadow: (5px 8px 16px rgba(190, 190, 190, 0.25));
 }

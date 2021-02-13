@@ -1,0 +1,20 @@
+.title-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.title-section-title {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.31;
+  color: $text-color;
+
+  height: 143px;
+  overflow: hidden;
+}
+
+.title-wrapper-overflow {
+  display: inline-block;
+  height: 147px;
+  overflow: hidden;
+}
