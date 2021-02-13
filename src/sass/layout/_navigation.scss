@@ -1,0 +1,67 @@
+.navigation-section {
+  padding-bottom: 41px;
+}
+// .navigation-list {
+//   display: flex;
+// }
+
+// .navigation-list-item {
+//   //   display: block;
+//   width: 180px;
+//   height: 48px;
+//   //   margin-left: auto;
+//   //   margin-right: auto;
+// }
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navigation-item-link {
+  padding-top: 14px;
+  border: 1px black solid;
+  padding-bottom: 13px;
+  padding-left: 35px;
+  padding-right: 34px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  color: $accent-color;
+}
+
+.active {
+  background-color: $accent-color;
+  color: white;
+  //   sdvsdvs
+}
+
+// .navigation-list-item {
+//   text-align: center;
+//   padding-top: 13px;
+//   padding-top: 14px;
+//   padding-right: 34px;
+//   padding-bottom: 15px;
+//   padding-left: 35px;
+// }
+
+// .btn {
+//     display: inline-block; /* Строчно-блочный элемент */
+//     background: #8C959D; /* Серый цвет фона */
+//     color: #fff; /* Белый цвет текста */
+//     padding: 1rem 1.5rem; /* Поля вокруг текста */
+//     text-decoration: none; /* Убираем подчёркивание */
+//     border-radius: 3px; /* Скругляем уголки */
+//    }
+
+//   <a href="page/new.html" class="btn">Переход по ссылке</a>
+
+// .navigation-list-item {
+//   padding-top: 14px;
+//   padding-right: 34px;
+//   padding-bottom: 15px;
+//   padding-left: 35px;
+// }
