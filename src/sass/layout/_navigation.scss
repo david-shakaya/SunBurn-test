@@ -1,5 +1,7 @@
-.navigation-section {
-  padding-bottom: 28px;
+@media screen and (max-width: 903px) {
+  .navigation-section {
+    padding-bottom: 28px;
+  }
 }
 
 .navigation-list {
@@ -42,5 +44,9 @@
     position: absolute;
     top: -88px;
     left: 247px;
+  }
+  .navigation-item-link:not(:last-child) {
+    margin-bottom: 0px;
+    margin-right: 26px;
   }
 }
