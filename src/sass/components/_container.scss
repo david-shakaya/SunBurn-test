@@ -23,5 +23,14 @@
 @media screen and (min-width: 904px) {
   .container {
     max-width: 904px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .container-relative {
+    max-width: 904px;
+    padding-left: 44px;
+    padding-right: 44px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }

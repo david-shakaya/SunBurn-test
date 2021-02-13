@@ -7,15 +7,23 @@
   color: rgb(255, 255, 255);
   height: 54px;
 }
-.header-cart-user {
-  display: flex;
-  padding-top: 20px;
-  padding-bottom: 134px;
+
+@media screen and (max-width: 903px) {
+  .header-cart-user {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 134px;
+  }
 }
 
 .header-container {
   background-color: $back-color;
   border-radius: 10px 10px 0px 0px;
+
+  @media screen and (min-width: 904px) {
+    padding-right: 44px;
+    padding-left: 44px;
+  }
 }
 
 .header-pict-user {
@@ -23,4 +31,34 @@
   width: 60px;
   margin-right: 12px;
   box-shadow: (5px 8px 16px rgba(190, 190, 190, 0.25));
+}
+
+/* CТИЛИ ДЛЯ ПК */
+@media screen and (min-width: 904px) {
+  .header-pict-user {
+    box-shadow: none;
+  }
+  .header-photo-user {
+    margin-top: 44px;
+  }
+  .header-container {
+    height: 220px;
+  }
+
+  .header-cart-user {
+    display: flex;
+  }
+
+  .header-name-user {
+    padding-top: 44px;
+    padding-left: 172px;
+
+    font-size: 31px;
+    line-height: 43px;
+    color: white;
+  }
+
+  .header {
+    padding-bottom: 122px;
+  }
 }

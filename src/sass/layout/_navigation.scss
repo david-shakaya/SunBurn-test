@@ -1,17 +1,6 @@
 .navigation-section {
-  padding-bottom: 41px;
+  padding-bottom: 28px;
 }
-// .navigation-list {
-//   display: flex;
-// }
-
-// .navigation-list-item {
-//   //   display: block;
-//   width: 180px;
-//   height: 48px;
-//   //   margin-left: auto;
-//   //   margin-right: auto;
-// }
 
 .navigation-list {
   display: flex;
@@ -19,7 +8,6 @@
 }
 .navigation-item-link {
   padding-top: 14px;
-  border: 1px black solid;
   padding-bottom: 13px;
   padding-left: 35px;
   padding-right: 34px;
@@ -31,37 +19,28 @@
   line-height: 21px;
   font-weight: 700;
   color: $accent-color;
+
+  &:not(:last-child) {
+    margin-bottom: 6px;
+  }
 }
 
 .active {
   background-color: $accent-color;
+  text-decoration: none;
   color: white;
-  //   sdvsdvs
+  box-shadow: 5px 6px 22px rgba(204, 61, 0, 0.24);
+  border-radius: 6px;
 }
 
-// .navigation-list-item {
-//   text-align: center;
-//   padding-top: 13px;
-//   padding-top: 14px;
-//   padding-right: 34px;
-//   padding-bottom: 15px;
-//   padding-left: 35px;
-// }
-
-// .btn {
-//     display: inline-block; /* Строчно-блочный элемент */
-//     background: #8C959D; /* Серый цвет фона */
-//     color: #fff; /* Белый цвет текста */
-//     padding: 1rem 1.5rem; /* Поля вокруг текста */
-//     text-decoration: none; /* Убираем подчёркивание */
-//     border-radius: 3px; /* Скругляем уголки */
-//    }
-
-//   <a href="page/new.html" class="btn">Переход по ссылке</a>
-
-// .navigation-list-item {
-//   padding-top: 14px;
-//   padding-right: 34px;
-//   padding-bottom: 15px;
-//   padding-left: 35px;
-// }
+/*------- СТИЛИ ДЛЯ ПК ---------*/
+@media screen and (min-width: 904px) {
+  .wrapper-position-relative {
+    position: relative;
+  }
+  .navigation-section {
+    position: absolute;
+    top: -88px;
+    left: 247px;
+  }
+}

@@ -1,0 +1,23 @@
+// .visible-in-desktop {
+//   display: none;
+//   //   visibility: hidden;
+// }
+
+// .ivisible-in-desctop{
+
+// }
+
+@media screen and (min-width: 904px) {
+  .invisible-in-descktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 903px) {
+  .visible-in-desktop {
+    display: none;
+  }
+  .list-item-cards:nth-child(n + 5) {
+    margin-bottom: 0px;
+  }
+}
