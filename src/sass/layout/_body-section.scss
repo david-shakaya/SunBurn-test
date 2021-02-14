@@ -1,13 +1,18 @@
-.body-section {
-  padding-bottom: 14px;
-}
-
-.body-list-mobile {
-  & > li:not(:last-child) {
-    margin-bottom: 14px;
+@media screen and (max-width: 903px) {
+  .body-section {
+    padding-bottom: 14px;
   }
-  & {
-    margin-bottom: 14px;
+}
+//
+
+@media screen and (max-width: 903px) {
+  .body-list-mobile {
+    & > li:not(:last-child) {
+      margin-bottom: 14px;
+    }
+    & {
+      margin-bottom: 14px;
+    }
   }
 }
 
@@ -62,5 +67,65 @@
   //   margin-bottom: 14px;
   & > li:not(:last-child) {
     margin-right: 23px;
+  }
+}
+
+//--------- СТИЛИ ДЛЯ ПК ------------
+
+@media screen and (min-width: 904px) {
+  .body-list-mobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .body-list-mobile > li:nth-child(2n + 1) {
+    width: 444px;
+    height: auto;
+    margin-right: 32px;
+  }
+  .body-list-mobile > li {
+    &:nth-child(2n) {
+      width: 280px;
+      height: auto;
+    }
+    margin-bottom: 24px;
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0px;
+      position: relative;
+      transform: translate(0px, 162%);
+    }
+  }
+  .body-list-mobile > li:nth-last-child(-n + 2) {
+    margin-bottom: 24px;
+  }
+
+  .title {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  // .list-body-lorem {
+  //   position: relative;
+  // transform: translate(0px, -149%
+  //   margin-bottom: 24px;
+  // }
+
+  // для двух последних лишек flags
+  //   position: relative;
+  // transform: translate(0px, 162%)
+
+  .list-body-lorem > li {
+    position: relative;
+    transform: translate(0px, -149%);
+    margin-bottom: 24px;
+    &:nth-child(2n + 1) {
+      width: 444px;
+      height: auto;
+      margin-right: 32px;
+    }
   }
 }
