@@ -27,3 +27,15 @@
 .list-item-cards-img {
   width: 54px;
 }
+
+// --------- Стили для Пк ----------
+@media screen and (min-width: 904px) {
+  .body-cards-section {
+    padding-bottom: 44px;
+    width: 274px;
+  }
+
+  .subtitle-cards {
+    margin-bottom: 8px;
+  }
+}
